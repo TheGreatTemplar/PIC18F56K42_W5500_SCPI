@@ -1,0 +1,19 @@
+# MPLAB X / XC8 artifacts
+build/
+dist/
+nbproject/private/
+*.hex
+*.elf
+*.map
+*.lst
+*.obj
+*.o
+*.d
+*.cof
+*.as
+*.pre
+*.sdb
+*.dep
+*.db
+.DS_Store
+Thumbs.db
