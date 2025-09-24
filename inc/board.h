@@ -1,0 +1,15 @@
+#ifndef BOARD_H
+#define BOARD_H
+
+#define _XTAL_FREQ 64000000UL
+
+#define W5500_CS_LAT   LATCbits.LATC2
+#define W5500_CS_TRIS  TRISCbits.TRISC2
+
+#define W5500_RST_LAT  LATCbits.LATC3
+#define W5500_RST_TRIS TRISCbits.TRISC3
+
+#define W5500_INT_PORT PORTCbits.RC4
+#define W5500_INT_TRIS TRISCbits.TRISC4
+
+#endif
